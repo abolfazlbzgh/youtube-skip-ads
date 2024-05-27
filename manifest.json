@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Skip Ads",
+  "version": "1.0",
+  "description": "This extension is open source and designed to skip YouTube ads.",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "skip.js"
+      ]
+    }
+  ]
+}
