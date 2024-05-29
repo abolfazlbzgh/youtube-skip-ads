@@ -4,7 +4,7 @@
 
 This extension is open source and designed to skip YouTube ads.
 
-## [Installation guide]() 
+## [Installation guide](https://abolfazlbzgh.github.io/#/codeDetail/ada7ac17-ac90-4cb9-8345-be36a19d03b3) 
 
 ## License
 
